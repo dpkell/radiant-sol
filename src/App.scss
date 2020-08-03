@@ -1,0 +1,16 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    // Defining the rem size. 1 rem = 10px. (10/16) = 62.5%
+    font-size: 62.5%; 
+}
+
+a { 
+    text-decoration: none; 
+}
+
+* {
+    box-sizing: border-box;
+}
