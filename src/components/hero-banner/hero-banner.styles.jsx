@@ -9,11 +9,15 @@ export const HeroBannerWrapper = styled.div`
     width: 100%;
 `;
 export const HeroBannerContainer = styled.div`
-    
     display: flex;
     flex-direction: column;
     align-items: center;
 `;
+
+export const BorderBox = styled.div`
+    display: flex;
+    justify-content: center;
+`
 
 export const BorderLine = styled.div`
     margin: 5rem 0;

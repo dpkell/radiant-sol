@@ -5,6 +5,7 @@ import {
     HeroBannerContainer,
     HeroImageContainer, 
     HeroImage,
+    BorderBox,
     BorderLine
 } from './hero-banner.styles';
 
@@ -15,7 +16,10 @@ const HeroBanner = ({}) => (
                 <HeroImage />
             </HeroImageContainer>
         </HeroBannerContainer>
-        <BorderLine />
+        <BorderBox>
+            <BorderLine />
+        </BorderBox>
+        
     </HeroBannerWrapper>
 )
 
