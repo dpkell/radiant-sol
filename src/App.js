@@ -1,12 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import HomePage from './pages/homepage/homepage.component';
+import Header from './components/header/header.component';
+
+import './App.scss';
 
 function App() {
   return (
-    <div>
-     
+    <div className='wrapper'>
+      <Header />
+      <HomePage />
     </div>
+    
   );
 }
 
